@@ -1,0 +1,21 @@
+h1,
+h2,
+h3 {
+    color: cornflowerblue;
+    text-shadow: 1px 1px black;
+}
+
+ul li{
+    color: rgb(177, 40, 31);
+}
+/* .(whatever) makes it a class */
+.fancy {
+
+    font-weight: bold;
+    color: yellow;
+    font-size:20pt;
+}
+
+body {
+    background-color: green;
+}
