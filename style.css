@@ -1,21 +1,42 @@
-h1,
-h2,
-h3 {
-    color: cornflowerblue;
-    text-shadow: 1px 1px black;
+h1 {
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px Blue;
+    font-size: 35pt;
+    padding: 20px;
+    border-width: 5px;
+    border-color: Blue;
+    border-radius: 5px;
+    border-style: solid;
+   
+}
+h2,h3,h4 {
+    color:white;
+    text-shadow: 1px 1px purple;
+    font-size: 25pt;
+    padding: 6px;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 5px;
+    border-style: solid;
+     font-weight: normal;
 }
 
-ul li{
-    color: rgb(177, 40, 31);
+
+ol,ul {
+    color: white;
+    font-size: 18pt;
+    text-shadow: 1px 1px Black;
+
 }
 /* .(whatever) makes it a class */
-.fancy {
-
-    font-weight: bold;
-    color: yellow;
-    font-size:20pt;
-}
-
 body {
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.911);
+    margin-left: 100px;
+     margin-right: 100px;
+}
+.text {
+font-size: 25pt;
+color: white;
+ text-shadow: 1px 1px Blue;
 }
